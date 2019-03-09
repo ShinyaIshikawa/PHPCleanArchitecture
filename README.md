@@ -1,2 +1,2 @@
 # laravel_cleanarch
-laravel clean architecture impletation.
+This repository clean architecture sample with PHP.
