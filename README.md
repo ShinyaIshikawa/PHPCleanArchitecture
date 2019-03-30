@@ -23,3 +23,17 @@ Usecase include UsecseInteractor and DataAccessInterface.
 
 ・[Clean\Web\Domain](https://github.com/ShinyaIshikawa/PHPCleanArchitecture/tree/master/packages/clean/web/src/Domain/Model)  
 Domain include Entity objects.  
+
+## Installation
+
+・Start Docker container(PHP,Nginx,Mysql)
+~~~
+docker compose up -d
+docker exec php php html/artisan migrate
+~~~
+
+・API Demo Request 
+~~~
+./curl.sh
+~~~
+
