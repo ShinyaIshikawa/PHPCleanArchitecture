@@ -28,7 +28,7 @@ Domain include Entity objects.
 
 ・Start Docker container(PHP,Nginx,Mysql)
 ~~~
-dockercompose up -d
+docker-compose up -d
 docker exec php php html/artisan migrate
 ~~~
 
